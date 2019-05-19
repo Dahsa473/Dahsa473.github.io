@@ -1,0 +1,44 @@
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #efefef;
+}
+img{
+ max-width: 500px;
+ height: auto;
+ width: 100%;
+ display: block;
+ margin: auto;
+}
+.img-box {
+	column-count: 4; /*разделили голерею на 4 столба*/
+	column-gap: 0;/*убераем отступ между колонками*/
+}
+.image { 
+max-width: 100%;
+display: block;	
+ }
+
+ .image + .image {
+  	margin: 5px;
+  }
+#a10{
+   font-weight: 900;/* жтрный шривт*/
+   text-align: center;/*текст по центру*/
+}
+#a11{
+	font-weight: 900;;/* жтрный шривт*/
+	text-align: center;/*текст по центру*/
+}
+}
+#a12{
+	font-weight: 900;/* жтрный шривт*/
+	text-align: center;/*текст по центру*/
+}
+
